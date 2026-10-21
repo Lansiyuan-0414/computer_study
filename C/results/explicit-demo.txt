@@ -1,0 +1,60 @@
+
+=== mm_malloc (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=1 PrevAllocated=1
+Address=0x7c035dd01f70 Size=4272 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_malloc (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=1 PrevAllocated=1
+Address=0x7c035dd01f70 Size=208 Allocated=1 PrevAllocated=1
+Address=0x7c035dd02040 Size=4064 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_malloc (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=1 PrevAllocated=1
+Address=0x7c035dd01f70 Size=208 Allocated=1 PrevAllocated=1
+Address=0x7c035dd02040 Size=64 Allocated=1 PrevAllocated=1
+Address=0x7c035dd02080 Size=4000 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_free (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=1 PrevAllocated=1
+Address=0x7c035dd01f70 Size=208 Allocated=0 PrevAllocated=1
+Address=0x7c035dd02040 Size=64 Allocated=1 PrevAllocated=0
+Address=0x7c035dd02080 Size=4000 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_malloc (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=1 PrevAllocated=1
+Address=0x7c035dd01f70 Size=160 Allocated=1 PrevAllocated=1
+Address=0x7c035dd02010 Size=48 Allocated=0 PrevAllocated=1
+Address=0x7c035dd02040 Size=64 Allocated=1 PrevAllocated=0
+Address=0x7c035dd02080 Size=4000 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_free (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=0 PrevAllocated=1
+Address=0x7c035dd01f70 Size=160 Allocated=1 PrevAllocated=0
+Address=0x7c035dd02010 Size=48 Allocated=0 PrevAllocated=1
+Address=0x7c035dd02040 Size=64 Allocated=1 PrevAllocated=0
+Address=0x7c035dd02080 Size=4000 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_free (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=8016 Allocated=0 PrevAllocated=1
+Address=0x7c035dd01f70 Size=160 Allocated=1 PrevAllocated=0
+Address=0x7c035dd02010 Size=4112 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+
+=== mm_free (explicit) ===
+Address=0x7c035dd00010 Size=16 Allocated=1 PrevAllocated=1
+Address=0x7c035dd00020 Size=12288 Allocated=0 PrevAllocated=1
+Address=0x7c035dd03020 Size=0 Allocated=1 PrevAllocated=0
+PASS: supplied allocation/free sequence; all blocks coalesced.

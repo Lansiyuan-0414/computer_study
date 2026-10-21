@@ -1,0 +1,60 @@
+
+=== mm_malloc (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=1
+Address=0x5848f5148f58 Size=4280 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_malloc (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=1
+Address=0x5848f5148f58 Size=208 Allocated=1
+Address=0x5848f5149028 Size=4072 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_malloc (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=1
+Address=0x5848f5148f58 Size=208 Allocated=1
+Address=0x5848f5149028 Size=64 Allocated=1
+Address=0x5848f5149068 Size=4008 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_free (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=1
+Address=0x5848f5148f58 Size=208 Allocated=0
+Address=0x5848f5149028 Size=64 Allocated=1
+Address=0x5848f5149068 Size=4008 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_malloc (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=1
+Address=0x5848f5148f58 Size=160 Allocated=1
+Address=0x5848f5148ff8 Size=48 Allocated=0
+Address=0x5848f5149028 Size=64 Allocated=1
+Address=0x5848f5149068 Size=4008 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_free (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=0
+Address=0x5848f5148f58 Size=160 Allocated=1
+Address=0x5848f5148ff8 Size=48 Allocated=0
+Address=0x5848f5149028 Size=64 Allocated=1
+Address=0x5848f5149068 Size=4008 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_free (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=8008 Allocated=0
+Address=0x5848f5148f58 Size=160 Allocated=1
+Address=0x5848f5148ff8 Size=4120 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+
+=== mm_free (implicit) ===
+Address=0x5848f5147008 Size=8 Allocated=1
+Address=0x5848f5147010 Size=12288 Allocated=0
+Address=0x5848f514a010 Size=0 Allocated=1
+PASS: supplied allocation/free sequence; all blocks coalesced.
